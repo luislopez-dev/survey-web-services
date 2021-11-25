@@ -50,7 +50,7 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 ## Endpoints
 
-### Obtener JSON WEB TOKEN
+## Obtener JSON WEB TOKEN
 
 ![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/token`**  
 
@@ -60,7 +60,7 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 * Solamente se necesita acceder a la ruta `http://localhost:8080/survey/token` para generar y obtener un token
 
-### Creación de encuestas
+## Creación de encuestas
 
 ![POST](https://img.shields.io/badge/METHOD-POST-blue) **`http://localhost:8080/survey`**
 
@@ -83,7 +83,7 @@ Propiedades de los campos (Fields):
 | isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
 | type | Si | Texto | Tipo de campo (Texto, Número y Fecha)
 
-### Modificación de encuestas
+## Modificación de encuestas
 
 ![PUT](https://img.shields.io/badge/METHOD-PUT-yellow) **`http://localhost:8080/survey`**
 
