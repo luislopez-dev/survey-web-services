@@ -128,3 +128,15 @@ Parametros de los campos (Fields):
 | id | Si | Número |`Id` del campo a llenar |
 | result | Si  | Texto | Respuesta ingresada en el campo |
 
+## Obtener resultados de cada encuesta
+
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/:id`**  
+
+* Require de autenticación por medio de JWT
+
+Parametros en la URL:
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| id | Si | Número | `Id` de la encuesta a revisar |
+
