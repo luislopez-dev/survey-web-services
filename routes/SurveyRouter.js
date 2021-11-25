@@ -6,7 +6,7 @@ const { Authenticate } = require("../middleware/Authenticate")
 // Update survey / Actualizar encuesta
 router.put('/', SurveyController.updateSurvey);
 
-// GET Survey & it's fields / obtener encuesta & sus campos
+// GET Survey & it's fields / Obtener encuesta & sus campos
 router.get('/:id', SurveyController.getSurvey);
 
 // Get survey results / Obtener resultados de encuesta

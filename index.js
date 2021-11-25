@@ -8,10 +8,9 @@ const cors = require('cors');
 const bodyParser = require('body-parser');
 const PORT = process.env.PORT;
 
-app.use(cors())
+// app.use(cors())
 app.use(bodyParser.json());
 app.use("/survey", SurveyRouter);
-
 app.use((error, req, res, next) => {
     const status = error.statusCode || 500;
     const message = error.message;

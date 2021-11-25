@@ -17,7 +17,7 @@ const ResultModel = db.define("results", {
     },
     result: {
         type: Sequelize.STRING,
-        allowNull:false,
+        allowNull:true,
     }
 })
 
