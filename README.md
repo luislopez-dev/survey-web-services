@@ -70,3 +70,7 @@ Parametros de los campos (Fields):
 | title | Si  | Texto | Título del campo |
 | isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
 | type | Si | Texto | | Tipo de campo (Texto, Número y Fecha)
+
+### Modificación de encuestas
+
+![PUT](https://img.shields.io/badge/METHOD-PUT-yellow) **`/survey`**
