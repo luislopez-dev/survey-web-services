@@ -56,15 +56,15 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 * Require autenticación por medio de JWT
 
-Parametros del Body:
+Propiedades del Body:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
 | name | Si | Texto | Nombre de la encuesta |
 | description | Si  | Texto | Descripción de la encuesta |
-| fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
+| fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los elementos que debe tener cada campo (field)  | Campos de la encuesta |
 
-Parametros de los campos (Fields):
+Elementos de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
@@ -79,7 +79,7 @@ Parametros de los campos (Fields):
 
 * Require autenticación por medio de JWT
 
-Parametros del Body:
+Propiedades del Body:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
@@ -87,7 +87,7 @@ Parametros del Body:
 | description | Si  | Texto | Descripción de la encuesta |
 | fields | Opcional | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
 
-Parametros de los campos (Fields):
+Elementos de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
@@ -114,14 +114,14 @@ Parametros en la URL:
 
 * No require de autenticación
 
-Parametros del Body:
+Propiedades del Body:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
 | id | Si | Número | `Id` de la encuesta a llenar |
 | fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
 
-Parametros de los campos (Fields):
+Elementos de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
