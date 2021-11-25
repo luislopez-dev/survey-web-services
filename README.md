@@ -50,7 +50,7 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 ## Endpoints
 
-## Obtener JSON WEB TOKEN
+### Obtener JSON WEB TOKEN
 
 ![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/token`**  
 
