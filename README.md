@@ -10,7 +10,7 @@
 
 ## Introducción
 
-Examen práctico de Devel Systems, S.A.
+Examen práctico
 
 ## Tecnologías
 
