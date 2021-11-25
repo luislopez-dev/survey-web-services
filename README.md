@@ -41,7 +41,7 @@ Por razones de seguridad, algunas variables se han ocultado a la vista y se han 
 
 * `DATABASE_NAME=` El nombre de la base de datos
 
-* `SECRET_KEY=` La llave secreta para la autenticación por medio de JWT, en procesos de pruebas puede usarse una simple cadena de texto, como por ejemplo "mi-llave". En caso de que se ignore esta variable, se utilizara el valor por defecto "random-string" 
+* `SECRET_KEY=` La llave secreta para la autenticación por medio de JWT, en procesos de pruebas se puede usar una simple cadena de texto, como por ejemplo "mi-llave". En caso de que se ignore esta variable, se utilizara el valor por defecto "random-string" 
 
 * PORT= El puerto en el que correra la aplicacion. En caso de que se ignore esta variable, se utilizara el puerto 8080 por defecto
 
