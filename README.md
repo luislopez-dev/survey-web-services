@@ -49,3 +49,16 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 `npm run dev`, para entornos de producción ejecute: `npm start`
 
 ## Endpoints
+
+![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey/`**
+
+Parametros del Body:
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| name | Verdadero | Texto | Nombre de la encuesta |
+| description | Verdadero  | Texto | Descripción de la encuesta |
+| fields | Verdadero | Array de objectos | Campos de la encuesta |
+
+### Creación de encuestas
+
