@@ -102,8 +102,8 @@ Parametros de los campos (Fields):
 
 * Require autenticación por medio de JWT
 
-Parametros de la URL:
+Parametros en la URL:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
-| id | Si | Número | Id de la encuesta a eliminar |
+| id | Si | Número | `Id` de la encuesta a eliminar |
