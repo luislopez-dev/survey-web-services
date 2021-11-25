@@ -58,7 +58,7 @@ Parametros del Body:
 | :---:| :-:| :-:| :-:|
 | name | Si | Texto | Nombre de la encuesta |
 | description | Si  | Texto | Descripción de la encuesta |
-| fields | Si | Array de objectos, en la siguiente tabla se brindan los paramentos de cada campo (field)  | Campos de la encuesta |
+| fields | Si | Array de objectos, en la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
 
 ### Creación de encuestas
 
