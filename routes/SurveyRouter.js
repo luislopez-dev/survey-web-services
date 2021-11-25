@@ -3,22 +3,22 @@ const router = express.Router();
 const SurveyController = require("../controllers/SurveyController");
 const { Authenticate } = require("../middleware/Authenticate")
 
-// Update survey
+// Update survey / Actualizar encuesta
 router.put('/', SurveyController.updateSurvey);
 
-// GET Survey
+// GET Survey & it's fields / obtener encuesta & sus campos
 router.get('/:id', SurveyController.getSurvey);
 
-// Get survey results
+// Get survey results / Obtener resultados de encuesta
 router.get('/results/:id', SurveyController.getSurveyResults);
 
-// Delete survey
+// Delete survey / Eliminar encuesta
 router.delete('/:id', SurveyController.deleteSurvey);
 
-// Create survey
+// Create survey / Crear encuesta
 router.post('/', SurveyController.addSurvey);
 
-// Fill survey
+// Fill out survey / Llenar encuesta
 router.post('/fill', SurveyController.fillSurvey);
 
 module.exports = router;

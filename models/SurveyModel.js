@@ -1,6 +1,10 @@
 const Sequelize = require("sequelize");
 const db = require("../config/database");
 
+/**
+ * Survey model
+ * Modelo de las encuestas
+ */
 const SurveyModel = db.define("surveys", {
     id: {
         type: Sequelize.INTEGER,
@@ -21,13 +25,11 @@ const SurveyModel = db.define("surveys", {
     createdAt: {
         type: Sequelize.DATE,
         field: 'created_at',
-        // defaultValue: Sequelize.literal('CURRENT_TIMESTAMP'),
         allowNull:false,
     },
     updatedAt: {
         type: Sequelize.DATE,
         field: 'updated_at',
-        // defaultValue: Sequelize.literal('CURRENT_TIMESTAMP ON UPDATE CURRENT_TIMESTAMP'),
         allowNull:false,
     }
 }, { tableName: 'surveys' });
