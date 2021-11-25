@@ -107,3 +107,7 @@ Parametros en la URL:
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
 | id | Si | Número | `Id` de la encuesta a eliminar |
+
+## Llenar encuesta
+
+![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey/fill`**
