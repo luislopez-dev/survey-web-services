@@ -66,7 +66,6 @@ Parametros de los campos (Fields)
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
-| id | Si | Número | El identificador de la encuesta
 | name | Si | Texto | Nombre del campo |
 | title | Si  | Texto | Título del campo |
 | isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
