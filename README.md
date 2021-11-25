@@ -71,7 +71,7 @@ Parametros de los campos (Fields):
 | name | Si | Texto | Nombre del campo |
 | title | Si  | Texto | Título del campo |
 | isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
-| type | Si | Texto | | Tipo de campo, puede ser Texto, Número o Fecha
+| type | Si | Texto | Tipo de campo (Texto, Número y Fecha)
 
 ### Modificación de encuestas
 
