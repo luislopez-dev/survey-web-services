@@ -45,6 +45,6 @@ Por razones de seguridad, algunas variables se han ocultado a la vista y se han 
 
 * `PORT=` El puerto en el que correra la aplicacion. En caso de que se ignore esta variable, se utilizara el puerto 8080 por defecto
 
-Para iniciar la aplicación debe ejecutar el siguiente comando:: `npm start`
+Para iniciar la aplicación debe ejecutar el siguiente comando: `npm start`
 
 
