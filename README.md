@@ -62,9 +62,9 @@ Propiedades del Body:
 | :---:| :-:| :-:| :-:|
 | name | Si | Texto | Nombre de la encuesta |
 | description | Si  | Texto | Descripción de la encuesta |
-| fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los elementos que debe tener cada campo (field)  | Campos de la encuesta |
+| fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los Propiedades que debe tener cada campo (field)  | Campos de la encuesta |
 
-Elementos de los campos (Fields):
+Propiedades de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
@@ -87,7 +87,7 @@ Propiedades del Body:
 | description | Si  | Texto | Descripción de la encuesta |
 | fields | Opcional | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
 
-Elementos de los campos (Fields):
+Propiedades de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
