@@ -93,6 +93,7 @@ Propiedades del Body:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
+| id | Si | Número | `Id` de la encuesta a modificar |
 | name | Si | Texto | Nombre de la encuesta |
 | description | Si  | Texto | Descripción de la encuesta |
 | fields | Opcional | Array de objetos [{},{},{}], cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan las propiedades que debe tener cada campo (field)  | Campos de la encuesta |
