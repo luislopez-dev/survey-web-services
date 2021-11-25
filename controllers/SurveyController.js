@@ -4,7 +4,10 @@ const { Op } = require("sequelize");
 const SurveyModel = require("../models/SurveyModel");
 const FieldModel = require("../models/FieldModel")
 const ResultModel = require("../models/ResultModel");
+const jwt = require('jsonwebtoken');
 const PORT = process.env.PORT;
+const SECRET_KEY = process.env.SECRET_KEY;
+
 
 /**
  * Making relationship between Survey and Field model /
@@ -196,4 +199,22 @@ exports.getSurvey = async (req, res, next) => {
   }
 
   return res.status(200).json(survey);
+}
+
+exports.getToken = async (req, res, next) => {
+
+  let token;
+
+  try {
+    
+    token = jwt.sign(null, SECRET_KEY, {algorithm: "HS256", expiresIn: '24h'});
+
+  } catch (err) {
+    
+    if (!err.statusCode) {
+      err.statusCode = 500;
+    }
+    next(err);
+  }
+  res.status(200).send({ok:true, token});
 }
