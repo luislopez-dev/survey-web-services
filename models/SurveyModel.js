@@ -9,9 +9,7 @@ const SurveyModel = db.define("surveys", {
     id: {
         type: Sequelize.INTEGER,
         primaryKey: true,
-        // user_id can not be null.
         allowNull:false,
-        // Increment the value automatically
         autoIncrement:true,
     },
     name: {
