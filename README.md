@@ -56,9 +56,9 @@ Parametros del Body:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
-| name | Verdadero | Texto | Nombre de la encuesta |
-| description | Verdadero  | Texto | Descripción de la encuesta |
-| fields | Verdadero | Array de objectos | Campos de la encuesta |
+| name | Si | Texto | Nombre de la encuesta |
+| description | Si  | Texto | Descripción de la encuesta |
+| fields | Si | Array de objectos | Campos de la encuesta |
 
 ### Creación de encuestas
 
