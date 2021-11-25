@@ -23,7 +23,7 @@ Examen práctico de Devel Systems, S.A.
 
 ## Instalación
 
-1. Descargue o clone este repositorio: `git clone https://github.com/Luis-Rene-Lopez/survey-web-services`
+1. Descargue o clone este repositorio
 
 2. Diríjase a la carpeta raíz del proyecto
 
@@ -46,3 +46,5 @@ Por razones de seguridad, algunas variables se han ocultado a la vista y se han 
 * PORT= El puerto en el que correra la aplicacion. En caso de que se ignore esta variable, se utilizara el puerto 8080 por defecto
 
 Para iniciar la aplicación debe ejecutar el siguiente comando:: `npm start`
+
+
