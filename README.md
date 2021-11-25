@@ -158,7 +158,7 @@ Parametros en la URL:
 
 ![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/token`**  
 
-* Debido a que no se solicitó un sistema de Registro y Login se ha creado un servicio web adicional para obtener un token de autenticación y poder acceder a los servicios web protegidos 
+* Debido a que no se solicitó un sistema de Registro y Login en este proyecto, se ha creado un servicio web adicional para obtener un token de autenticación y poder acceder a los servicios web protegidos 
  
 * Cada token tiene un periodo de duración de 24 horas
 

@@ -8,7 +8,6 @@ const jwt = require('jsonwebtoken');
 const PORT = process.env.PORT;
 const SECRET_KEY = process.env.SECRET_KEY;
 
-
 /**
  * Making relationship between Survey and Field model /
  * Haciendo relacion entre los modelos "encuesta" y "campo" 
@@ -201,13 +200,14 @@ exports.getSurvey = async (req, res, next) => {
   return res.status(200).json(survey);
 }
 
+// Get authentication token - module / Modulo para obtener token de autenticación
 exports.getToken = async (req, res, next) => {
 
   let token;
 
   try {
     
-    token = jwt.sign(null, SECRET_KEY, {algorithm: "HS256", expiresIn: '24h'});
+    token = jwt.sign({}, SECRET_KEY, {algorithm: "HS256", expiresIn: '24h'});
 
   } catch (err) {
     
