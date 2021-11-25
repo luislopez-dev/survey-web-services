@@ -1,7 +1,7 @@
 const Sequelize = require("sequelize");
 const db = require("../config/database");
 
-const AnswerModel = db.define("answers", {
+const ResultModel = db.define("results", {
 
     id: {
         type: Sequelize.INTEGER,
@@ -11,10 +11,10 @@ const AnswerModel = db.define("answers", {
         // Increment the value automatically
         autoIncrement:true,
     },
-    answer: {
+    result: {
         type: Sequelize.STRING,
         allowNull:false,
     }
 })
 
-module.exports = AnswerModel;
+module.exports = ResultModel;

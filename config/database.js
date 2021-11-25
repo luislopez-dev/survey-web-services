@@ -10,6 +10,5 @@ module.exports = new Sequelize(process.env.DATABASE_NAME, process.env.DATABASE_U
           useUTC: false,
           dateFirst: 1,
         }
-    },
-    logging: true
+    }
 });

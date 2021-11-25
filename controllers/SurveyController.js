@@ -1,11 +1,11 @@
 const SurveyModel = require("../models/SurveyModel");
 const FieldModel = require("../models/FieldModel")
-const AnswerModel = require("../models/AnswerModel");
+const ResultModel = require("../models/ResultModel");
 const { Op } = require("sequelize");
 
 SurveyModel.hasMany(FieldModel, {as: 'Fields'});
 
-FieldModel.hasMany(AnswerModel, {as: 'Answers'});
+FieldModel.hasMany(ResultModel, {as: 'Results'});
 
 exports.addSurvey = async (req, res, next) => {
 
@@ -84,7 +84,7 @@ exports.fillSurvey = async (req, res, next) => {
     try {
      
       fields.forEach(field => {
-        AnswerModel.create({answer:field.answer, fieldId: field.id});
+        ResultModel.create({result:field.result, fieldId: field.id});
       });
      
     } catch (error) {
@@ -97,14 +97,14 @@ exports.fillSurvey = async (req, res, next) => {
     return res.status(201).send(true);
 }
 
-exports.getSurveyAnswers = async(req, res, next) => {
+exports.getSurveyResults = async(req, res, next) => {
 
   const id = req.params.id;
-  let answers;
+  let results;
 
   try {
 
-     answers =  await FieldModel.findAll({where: {surveyId:id}, include:[ {model: AnswerModel, as: "Answers"} ] });
+     results =  await FieldModel.findAll({where: {surveyId:id}, include:[ {model: ResultModel, as: "Results"} ] });
     
   } catch (error) {
 
@@ -114,7 +114,7 @@ exports.getSurveyAnswers = async(req, res, next) => {
 
   }
 
-  return res.status(200).json(answers);
+  return res.status(200).json(results);
 
 }
 
