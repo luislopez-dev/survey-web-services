@@ -45,6 +45,6 @@ Por razones de seguridad, algunas variables se han ocultado a la vista y se han 
 
 * `PORT=` El puerto sobre el cual correrá la aplicación. En caso de que se ignore esta variable, se utilizara el puerto 8080 por defecto
 
-Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando: `npm rundev`, para entornos de producción ejecute: `npm start`
+Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando: `npm run dev`, para entornos de producción ejecute: `npm start`
 
 
