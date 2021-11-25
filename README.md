@@ -50,6 +50,8 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 ## Endpoints
 
+### Creación de encuestas
+
 ![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey`**
 
 Parametros del Body:
@@ -58,7 +60,14 @@ Parametros del Body:
 | :---:| :-:| :-:| :-:|
 | name | Si | Texto | Nombre de la encuesta |
 | description | Si  | Texto | Descripción de la encuesta |
-| fields | Si | Array de objetos, en la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
+| fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
 
-### Creación de encuestas
+Parametros de los campos (Fields) 
 
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| id | Si | Número | El identificador de la encuesta
+| name | Si | Texto | Nombre del campo |
+| title | Si  | Texto | Título del campo |
+| isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
+| type | Si | Texto | | Tipo de campo (Texto, Número y Fecha)
