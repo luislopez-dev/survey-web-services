@@ -52,7 +52,7 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 ### Creación de encuestas
 
-![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey`**
+![POST](https://img.shields.io/badge/METHOD-POST-blue) **`http://localhost:8080/survey`**
 
 * Require autenticación por medio de JWT
 
@@ -75,7 +75,7 @@ Propiedades de los campos (Fields):
 
 ### Modificación de encuestas
 
-![PUT](https://img.shields.io/badge/METHOD-PUT-yellow) **`/survey`**
+![PUT](https://img.shields.io/badge/METHOD-PUT-yellow) **`http://localhost:8080/survey`**
 
 * Require autenticación por medio de JWT
 
@@ -98,7 +98,7 @@ Propiedades de los campos (Fields):
 
 ## Eliminación de encuestas
 
-![DELETE](https://img.shields.io/badge/METHOD-DELETE-red) **`/survey/:id`**
+![DELETE](https://img.shields.io/badge/METHOD-DELETE-red) **`http://localhost:8080/survey/:id`**
 
 * Require autenticación por medio de JWT
 
@@ -110,7 +110,7 @@ Parametros en la URL:
 
 ## Llenar encuesta
 
-![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey/fill`**
+![POST](https://img.shields.io/badge/METHOD-POST-blue) **`http://localhost:8080/survey/fill`**
 
 * No require de autenticación
 
@@ -130,7 +130,7 @@ Elementos de los campos (Fields):
 
 ## Obtener resultados de cada encuesta
 
-![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/results/:id`**  
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/results/:id`**  
 
 * Require de autenticación por medio de JWT
 
@@ -142,7 +142,7 @@ Parametros en la URL:
 
 ## Obtener encuesta y sus campos
 
-![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/:id`**  
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/:id`**  
 
 * No require de autenticación por medio de JWT
 
@@ -156,10 +156,10 @@ Parametros en la URL:
 
 ## Obtener JSON WEB TOKEN
 
-![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/token`**  
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/token`**  
 
 * Debido a que no se solicitó un sistema de Registro y Login en este proyecto, se ha creado un servicio web adicional para obtener un token de autenticación y poder acceder a los servicios web protegidos 
  
 * Cada token tiene un periodo de duración de 24 horas
 
-* Solamente se necesita acceder a la ruta `/survey/token` para generar y obtener un token
+* Solamente se necesita acceder a la ruta `http://localhost:8080/survey/token` para generar y obtener un token
