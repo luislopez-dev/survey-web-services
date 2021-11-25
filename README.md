@@ -27,7 +27,7 @@ Examen práctico de Devel Systems, S.A.
 
 2. Diríjase a la carpeta raíz del proyecto
 
-3. Instale las dependencias: `npm install`
+3. Instale las dependencias a través del siguiente comando: `npm install`
 
 ## Ejecución
 
