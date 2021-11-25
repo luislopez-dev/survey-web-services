@@ -6,7 +6,7 @@ const FieldModel = require("../models/FieldModel")
 const ResultModel = require("../models/ResultModel");
 const jwt = require('jsonwebtoken');
 const PORT = process.env.PORT;
-const SECRET_KEY = process.env.SECRET_KEY;
+const SECRET_KEY = process.env.SECRET_KEY || "random-string";
 
 /**
  * Making relationship between Survey and Field model /
