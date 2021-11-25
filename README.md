@@ -111,3 +111,21 @@ Parametros en la URL:
 ## Llenar encuesta
 
 ![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey/fill`**
+
+* No require de autenticación
+
+Parametros del Body:
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| id | Si | Número | `Id` de la encuesta a llenar |
+| fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
+
+Parametros de los campos (Fields):
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| name | Si | Texto | Nombre del campo |
+| title | Si  | Texto | Título del campo |
+| isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
+| type | Si | Texto | Tipo de campo (Texto, Número y Fecha)
