@@ -139,7 +139,7 @@ exports.fillSurvey = (req, res, next) => {
       * */ 
       const filter = await FieldModel.findAll({where: {id:field.id, [Op.and]: [{surveyId}]}});
 
-      if(filter){
+      if(typeof filter !== 'undefined' && filter.length > 0){
         await ResultModel.create({result:field.result, fieldId: field.id});
       }   
     });
