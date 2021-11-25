@@ -146,8 +146,20 @@ Parametros en la URL:
 
 * No require de autenticación por medio de JWT
 
+* La URL de este servicio web es retornada automáticamente después de la creación de la encuesta
+
 Parametros en la URL:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
 | id | Si | Número | `Id` de la encuesta a revisar |
+
+## Obtener JSON WEB TOKEN
+
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/token`**  
+
+* Debido a que no se solicitó un sistema de Registro y Login se ha creado un servicio web adicional para obtener un token de autenticación y poder acceder a los servicios web protegidos 
+ 
+* Cada token tiene un periodo de duración de 24 horas
+
+* Solamente se necesita acceder a la ruta para generar y obtener un token
