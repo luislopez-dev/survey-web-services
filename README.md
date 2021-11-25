@@ -54,6 +54,8 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 ![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey`**
 
+* Require autenticación por medio de JWT
+
 Parametros del Body:
 
 | Nombre | Requerido  | Tipo  | Descricpión |
