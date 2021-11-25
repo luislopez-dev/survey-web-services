@@ -11,3 +11,12 @@
 ## Introducción
 
 Examen práctico de Devel Systems, S.A.
+
+## Tecnologías
+
+* Node.js
+* Express
+* SQL Server
+* Sequelize
+* JWt
+* NPM
