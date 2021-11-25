@@ -76,3 +76,20 @@ Parametros de los campos (Fields):
 ### Modificación de encuestas
 
 ![PUT](https://img.shields.io/badge/METHOD-PUT-yellow) **`/survey`**
+
+* Require autenticación por medio de JWT
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| name | Si | Texto | Nombre de la encuesta |
+| description | Si  | Texto | Descripción de la encuesta |
+| fields | Opcional | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
+
+Parametros de los campos (Fields):
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| name | Si | Texto | Nombre del campo |
+| title | Si  | Texto | Título del campo |
+| isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
+| type | Si | Texto | Tipo de campo (Texto, Número y Fecha)
