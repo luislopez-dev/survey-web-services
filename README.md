@@ -79,6 +79,8 @@ Parametros de los campos (Fields):
 
 * Require autenticación por medio de JWT
 
+Parametros del Body:
+
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
 | name | Si | Texto | Nombre de la encuesta |
@@ -93,3 +95,15 @@ Parametros de los campos (Fields):
 | title | Si  | Texto | Título del campo |
 | isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
 | type | Si | Texto | Tipo de campo (Texto, Número y Fecha)
+
+## Eliminación de encuestas
+
+![DELETE](https://img.shields.io/badge/METHOD-DELETE-red) **`/survey/:id`**
+
+* Require autenticación por medio de JWT
+
+Parametros de la URL:
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| id | Si | Número | Id de la encuesta a eliminar |
