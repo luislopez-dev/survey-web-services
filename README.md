@@ -162,4 +162,4 @@ Parametros en la URL:
  
 * Cada token tiene un periodo de duración de 24 horas
 
-* Solamente se necesita acceder a la ruta para generar y obtener un token
+* Solamente se necesita acceder a la ruta `/survey/token` para generar y obtener un token
