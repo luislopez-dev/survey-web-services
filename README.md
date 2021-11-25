@@ -48,4 +48,4 @@ Por razones de seguridad, algunas variables se han ocultado a la vista y se han 
 Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando: 
 `npm run dev`, para entornos de producción ejecute: `npm start`
 
-
+## Endpoints
