@@ -40,7 +40,7 @@ exports.addSurvey = async (req, res, next) => {
   
     fields.forEach( async ( field) => {
   
-      FieldModel.create({name:field.name, 
+      await FieldModel.create({name:field.name, 
                          title: field.title, 
                          isRequired: field.isRequired, 
                          type: field.type, 
@@ -59,7 +59,7 @@ exports.addSurvey = async (req, res, next) => {
 }
 
 // Update-survey module / Modulo de actualizacion de encuestas
-exports.updateSurvey = async (req, res, next) => {
+exports.updateSurvey = (req, res, next) => {
 
   // Survey Id / Id de la encuesta
   const id = req.body.id;
@@ -72,8 +72,8 @@ exports.updateSurvey = async (req, res, next) => {
     
   SurveyModel.update({name, description}, {where: {id}})
   .then(() => { 
-    fields.forEach((field) => {
-      FieldModel.update({name: field.name,  
+    fields.forEach( async (field) => {
+      await FieldModel.update({name: field.name,  
                          title: field.title,
                          isRequired: field.isRequired,
                          type: field.type}, {where: {id:field.id, [Op.and]: [{surveyId:id}]}}
