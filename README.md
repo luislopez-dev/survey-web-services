@@ -50,7 +50,7 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 ## Endpoints
 
-![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey/`**
+![POST](https://img.shields.io/badge/METHOD-POST-blue) **`/survey`**
 
 Parametros del Body:
 
