@@ -50,6 +50,16 @@ Para iniciar la aplicación en entornos de pruebas ejecute el siguiente comando:
 
 ## Endpoints
 
+## Obtener JSON WEB TOKEN
+
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/token`**  
+
+* Debido a que no se solicitó un sistema de Registro y Login en este proyecto, se ha creado un servicio web adicional para obtener un token de autenticación y poder acceder a los servicios web protegidos 
+ 
+* Cada token tiene un periodo de duración de 24 horas
+
+* Solamente se necesita acceder a la ruta `http://localhost:8080/survey/token` para generar y obtener un token
+
 ### Creación de encuestas
 
 ![POST](https://img.shields.io/badge/METHOD-POST-blue) **`http://localhost:8080/survey`**
@@ -153,13 +163,3 @@ Parametros en la URL:
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
 | id | Si | Número | `Id` de la encuesta a revisar |
-
-## Obtener JSON WEB TOKEN
-
-![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/token`**  
-
-* Debido a que no se solicitó un sistema de Registro y Login en este proyecto, se ha creado un servicio web adicional para obtener un token de autenticación y poder acceder a los servicios web protegidos 
- 
-* Cada token tiene un periodo de duración de 24 horas
-
-* Solamente se necesita acceder a la ruta `http://localhost:8080/survey/token` para generar y obtener un token
