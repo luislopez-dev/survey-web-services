@@ -3,7 +3,7 @@
 ## Tabla de contenidos
 
 * [Introducción](#introducción)
-* [Tecnologías](#tecnologias)
+* [Tecnologías](#tecnologías)
 * [Instalación](#instalación)
 * [Ejecución](#ejecución)
 * [Endpoints](#endpoints)
