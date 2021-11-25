@@ -62,7 +62,7 @@ Parametros del Body:
 | description | Si  | Texto | Descripción de la encuesta |
 | fields | Si | Array de objetos, cada campo debe ingresarse a través de un objeto. En la siguiente tabla se brindan los paramentos que debe tener cada campo (field)  | Campos de la encuesta |
 
-Parametros de los campos (Fields) 
+Parametros de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
