@@ -130,7 +130,7 @@ Parametros de los campos (Fields):
 
 ## Obtener resultados de cada encuesta
 
-![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/:id`**  
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/results/:id`**  
 
 * Require de autenticación por medio de JWT
 
@@ -140,3 +140,14 @@ Parametros en la URL:
 | :---:| :-:| :-:| :-:|
 | id | Si | Número | `Id` de la encuesta a revisar |
 
+## Obtener encuesta y sus campos
+
+![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`/survey/:id`**  
+
+* No require de autenticación por medio de JWT
+
+Parametros en la URL:
+
+| Nombre | Requerido  | Tipo  | Descricpión |
+| :---:| :-:| :-:| :-:|
+| id | Si | Número | `Id` de la encuesta a revisar |
