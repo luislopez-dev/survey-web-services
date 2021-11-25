@@ -102,6 +102,7 @@ Propiedades de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
+| id | Si | Número | `Id` de los campos (fields) a modificar |
 | name | Si | Texto | Nombre del campo |
 | title | Si  | Texto | Título del campo |
 | isRequired | Si | Booleano  | Indica si es obligatorio llenar el campo |
