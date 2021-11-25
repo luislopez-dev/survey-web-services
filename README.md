@@ -154,7 +154,7 @@ Parametros en la URL:
 
 ![GET](https://img.shields.io/badge/METHOD-GET-brightgreen) **`http://localhost:8080/survey/:id`**  
 
-* No require de autenticación por medio de JWT
+* No require de autenticación
 
 * La URL de este servicio web es retornada automáticamente después de la creación de la encuesta
 
