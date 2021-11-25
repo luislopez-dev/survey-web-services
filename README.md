@@ -125,6 +125,6 @@ Parametros de los campos (Fields):
 
 | Nombre | Requerido  | Tipo  | Descricpión |
 | :---:| :-:| :-:| :-:|
-| id | Si | Texto |`Id` del campo a llenar |
+| id | Si | Número |`Id` del campo a llenar |
 | result | Si  | Texto | Respuesta ingresada en el campo |
 
