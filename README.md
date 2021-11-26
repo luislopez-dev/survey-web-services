@@ -31,7 +31,7 @@ Examen práctico - NODE JS
 
 ## Ejecución
 
-Por razones de seguridad, algunas variables se han ocultado a la vista y se han utilizado como variables de entorno con la ayuda del paquete dotenv. A continuación se muestran las variables que debe colocar y configurar en un archivo `.env` para luego poder ejecutar la aplicación:
+Por razones de seguridad, algunas variables se han ocultado a la vista y se han utilizado como variables de entorno con la ayuda del paquete dotenv. A continuación se muestran las variables que debe colocar y configurar en un archivo `.env`:
 
 * `HOST=` El servidor de la base de datos, por ejemplo: "localhost"
 
